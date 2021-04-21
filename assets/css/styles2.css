@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Halant-Regular";
+    src: url(../polices/Halant-Regular.ttf);}
+
+#partThree{background-color:rgba(218, 215, 205, 1) ;}
+
+.mainphotos
+    {display: grid;
+     grid-template-columns: 60% 10% 60% ;
+    grid-template-rows: 50% 10% 50%;
+
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-top: 10%;}
+
+.compos{grid-column: 3;
+        grid-row: 1;}
+.boutique{grid-column: 1;
+            grid-row: 1;}
+.evenement{grid-column: 1;
+            grid-row: 3;}
+.contact{grid-column: 3;
+        grid-row: 3;}
+
+button{background-color: rgba(88, 129, 87, 1);
+        font-family: Halant-Regular;
+        font-size: 30px;
+        color: white;
+        border-style: none;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        margin-top: -500px;
+        z-index: 2;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-radius: 1px;}
+button:hover{background-color:rgba(163, 177, 138, 1) ;
+            border: rgba(52, 78, 65, 1);
+            border-style: solid 2px;
+            align-items: center;
+            transition-duration: 700ms;
+            opacity: 40%;}
+
+img{width:100%;
+    height: 80%;
+    z-index: 1;
+    border: 2px solid rgba(52, 78, 65, 1);
+    padding: 8px;}
+#laboutique{margin-left: 38%;
+            margin-right: 38%;}
+#nouscontacter{margin-left: 34%;
+    margin-right: 34%;}
+
+    @media screen and (max-width: 680px){
+        a {
+            display: none;
+           }
+   
+       #navIcon{
+           display: block;
+       }
+   @media screen and (max-width: 992px){
+           .box{
+               flex-direction: column;}
